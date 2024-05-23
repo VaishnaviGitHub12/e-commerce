@@ -51,9 +51,10 @@ const CartItems = () => {
               <p>${getTotalcartAmount()}</p>
             </div>
             <hr />
-            <div className="cartitems-total-items"></div>
+            <div className="cartitems-total-items">
             <p>Shipping Fee</p>
             <p>Free</p>
+            </div>
           </div>
           <hr />
           <div className="cartitems-total-items">

@@ -1,6 +1,6 @@
 import React, { useContext, useRef } from 'react'
 import './Navbar.css'
-import logo from '../Assets/myLogo.png'
+import logo from '../Assets/SamyakMart.png'
 import cart_icon from '../Assets/cart.png'
 import { useState } from "react";
 import { Link } from 'react-router-dom';
@@ -22,7 +22,7 @@ const Navbar = () => {
     <div className='navbar'>
       <div className='nav-logo'>
         <img  src={logo} alt=''/>
-        <p>SHOPPER</p>
+        {/* <p>Shopper</p> */}
       </div>
       <img className='nav-dropdown' onClick={dropdown_toggle} src={nav_dropdown} alt=''/>
       <ul ref={menuRef} className="nav-menu">

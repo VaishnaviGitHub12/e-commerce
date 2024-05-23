@@ -17,7 +17,9 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    height: 60px;
 }
+
 .nav-logo p{
     color: #171717;
     font-size: 30px;
@@ -87,7 +89,8 @@
 
     }
     .nav-logo img{
-        width: 40px;
+        /* width: 40px; */
+        height:90px;
     }
     .nav-logo p{
         font-size: 25px;
